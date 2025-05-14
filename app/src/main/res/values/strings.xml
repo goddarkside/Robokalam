@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Robokalam Task</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="register">Register</string>
+    <string name="already_have_an_account_login">Already have an account? Login</string>
+    <string name="new_user_register_here">New user? Register here</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="about_robokalam">About Robokalam</string>
+    <string name="quote_of_the_day">Quote of the Day</string>
+    <string name="my_portfolio">My Portfolio</string>
+    <string name="college">College</string>
+    <string name="skills_comma_separated">Skills (comma-separated)</string>
+    <string name="project_title">Project Title</string>
+    <string name="project_description">Project Description</string>
+    <string name="save_portfolio">Save Portfolio</string>
+    <string name="missiondec">Our main motive is to promote the experiential gamified education among children by organizing Workshops, Trainings and innovation challenges at every level. We saw the enthusiasms among the students of doing something creative so we planned to provide them an International Platform to perform and to show their creativity. The workshops would help students to enter in the real world of 21st Century Technology and to create an aptitude in the limitless field of these emerging technologies. The workshops will guide them to get the feel of Real life problem solving and how powerful and exciting it can be. Join Us!</string>
+    <string name="mission">Mission</string>
+    <string name="visiondec"><![CDATA[We wish to act as a mediator between Technology & Students to improve their academic performance by providing additional syllabus inputs and best Training, expert curriculum and various emerging Technologies. Our vision is to empower young minds through high quality & endless education.]]></string>
+    <string name="vision">Vision</string>
+    <string name="ROBOKALAM"><![CDATA[ROBOKALAM is a 21st Century Edutech company, which focuses on Gamified education solutions, covering technical Education and doing Research & development in latest technologies like AI, IoT, Coding, Robotics, etc. We provide Workshops, Training Certifications, DIY (Do It Yourself) Kits to institutes all around the world. The current training system provides a hands-on experience and exposure in the latest technologies to the students. Apart from this, we have organized technical and student centric Outreach Programs in Government Institutions. Every Year, we used to organize our own well reputed fest named SKOOL ENGINE in association with Samaritans Stand Up Organization. We have been successfully organizing the annual editions of student innovation platform SKOOL ENGINE since 2015.]]></string>
+    <string name="who_are_we">Who Are We?</string>
+</resources>
