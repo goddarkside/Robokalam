@@ -6,6 +6,7 @@
     android:orientation="vertical"
     android:gravity="center"
     android:padding="24dp"
+    android:background="@drawable/gradient_background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LoginActivity">
@@ -14,12 +15,15 @@
         android:id="@+id/etEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColorHint="#5D5D5D"
         android:hint="@string/email"
+        android:textColor="@color/black"
         android:inputType="textEmailAddress"
         android:minHeight="48dp" />
 
     <Button android:id="@+id/btnLogin"
         android:text="@string/login"
+        android:textColor="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp" />

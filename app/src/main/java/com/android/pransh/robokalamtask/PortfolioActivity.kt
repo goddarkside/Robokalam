@@ -23,6 +23,7 @@ class PortfolioActivity : AppCompatActivity() {
     private lateinit var etProjectDescription: EditText
     private lateinit var btnSave: Button
     private lateinit var tvResult: TextView
+    private lateinit var tvSuccess: TextView
 
     private lateinit var db: AppDatabase
     private lateinit var dao: PortfolioDao
@@ -38,6 +39,7 @@ class PortfolioActivity : AppCompatActivity() {
         etProjectDescription = findViewById(R.id.etProjectDescription)
         btnSave = findViewById(R.id.btnSave)
         tvResult = findViewById(R.id.tvResult)
+        tvSuccess = findViewById(R.id.tvSuccess)
 
         db = AppDatabase.getDatabase(this)
         dao = db.portfolioDao()
@@ -67,7 +69,8 @@ class PortfolioActivity : AppCompatActivity() {
                 dao.insertPortfolio(portfolio)
                 val saved = dao.getPortfolio()
                 withContext(Dispatchers.Main) {
-                    tvResult.text = "Saved Portfolio:\nName: ${saved?.name}\nCollege: ${saved?.college}\nSkills: ${saved?.skills}\nProject: ${saved?.projectTitle}\nDescription: ${saved?.projectDescription}"
+                    tvSuccess.text = getString(R.string.portfolio_saved_successfully)
+                    tvResult.text = "Name: ${saved?.name}\nCollege: ${saved?.college}\nSkills: ${saved?.skills}\nProject: ${saved?.projectTitle}\nDescription: ${saved?.projectDescription}"
                 }
             }
         }

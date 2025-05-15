@@ -8,6 +8,7 @@
     android:orientation="vertical"
     android:padding="24dp"
     android:gravity="center"
+    android:background="@drawable/gradient_background"
     tools:context=".DashboardActivity">
 
 
@@ -15,6 +16,7 @@
         <TextView
             android:id="@+id/tvWelcome"
             android:text="Welcome"
+            android:textColor="@color/black"
             android:textSize="20sp"
             android:textStyle="bold"
             android:layout_marginBottom="24dp"
@@ -24,12 +26,14 @@
         <Button
             android:id="@+id/btnPortfolio"
             android:text="@string/my_portfolio"
+            android:textColor="@color/white"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
         <Button
             android:id="@+id/btnQuote"
             android:text="@string/quote_of_the_day"
+            android:textColor="@color/white"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp" />
@@ -37,6 +41,7 @@
         <Button
             android:id="@+id/btnAbout"
             android:text="@string/about_robokalam"
+            android:textColor="@color/white"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp" />

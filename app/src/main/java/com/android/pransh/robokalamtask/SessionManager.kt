@@ -3,7 +3,7 @@ package com.android.pransh.robokalamtask
 import android.content.Context
 
 class SessionManager(context: Context) {
-    private val prefs = context.getSharedPreferences("UserSession", Context.MODE_PRIVATE)
+    val prefs = context.getSharedPreferences("UserSession", Context.MODE_PRIVATE)
 
     fun saveUser(name: String, email: String) {
         prefs.edit().apply {
